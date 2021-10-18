@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #fff;
+}
+.navbar{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    margin-left:-300px;
+    background-color:#D6F2FF;
+    transition: 0.4s;
+}
+
+.nav-link{
+    font-size:1.25rem;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover{
+    background-color: rgb(182, 182, 169);
+}
+
+.my-container{
+ transition: 0.4s;
+}
+
+.active-nav{
+    margin-left:0;
+}
+.active-cont{
+   margin-left: 250px; 
+}
+
+#menu-btn{
+    background-color: blueviolet;
+    color:#fff;
+}
+
+#menu-btn:focus{
+    box-shadow: 0 0 0 0.25rem #d1b6d4;
+}
+
+
+.form {
+    position: relative
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+}
+
+.form span {
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db
+}
+
+
+
+.form-input {
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+    background: rgba(239, 235, 235, 0.5);
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: none
+}
+
