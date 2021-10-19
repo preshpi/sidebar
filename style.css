@@ -44,8 +44,6 @@ body{
 }
 
 
-
-
 .form {
     position: relative
 }
@@ -76,6 +74,20 @@ body{
 
 .form-input:focus {
     box-shadow: none;
-    border: none
+    border: none;
 }
 
+@media (max-width:2560px){
+
+    #menu-btn{
+        display:none;
+    }
+}
+
+@media screen and (max-width:480px){
+    .main{
+        width: 350px;
+    }
+
+    
+}
