@@ -77,17 +77,19 @@ body{
     border: none;
 }
 
-@media (max-width:2560px){
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
 
     #menu-btn{
-        display:none;
+        display: none;
     }
 }
+
 
 @media screen and (max-width:480px){
     .main{
         width: 350px;
     }
-
-    
 }
